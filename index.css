@@ -10,6 +10,7 @@ header{
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid #b6b1b1;
+    
 }
 .myntra_home{
     height: 36px;
@@ -21,6 +22,9 @@ header{
 }
 .action_bar{
     margin-right: 4%;
+    display:flex;
+    min-width:200px;
+    justify-content:space-evenly;
 }
 .nav_bar{
     display: flex;
@@ -87,7 +91,7 @@ header{
 
 }
 .banner_image {
-    width: 50%;
+    width: 100%;
    
 }
 .category_heading {
